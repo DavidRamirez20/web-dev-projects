@@ -29,11 +29,10 @@ export const Description = () => {
             </div>
          </button>
          <div className={styles.Description__textContainer}>
-            <h2 className={styles.Description__title}>Ecomerce</h2>
+            <h2 className={styles.Description__title}>Ecommerce Brand</h2>
             <p className={styles.Description__text}>
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-               Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            Health and wellness brand that offers a variety of natural and nutritious products. 
+            Our mission is to provide our customers with the tools they need to live a healthier, happier life.
             </p>
          </div>
       </section>
