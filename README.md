@@ -26,6 +26,20 @@ claude-code/
     └── PlatziFlixiOS/       # App Swift
 ```
 
+### `blog_app/` — Blog App
+
+API REST de blog con usuarios y posts, construida con NestJS y PostgreSQL.
+
+**Stack:** NestJS 11 + TypeScript + TypeORM + PostgreSQL + Docker
+
+```
+blog_app/
+├── src/
+│   ├── posts/    # Módulo de posts
+│   └── users/    # Módulo de usuarios
+└── test/         # Tests e2e
+```
+
 ### `nextjs-store/` — Next.js Store
 
 Aplicación de e-commerce construida con Next.js.
