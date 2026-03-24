@@ -15,16 +15,23 @@ const getProducts = async () => {
    }
 }
 
+interface Product {
+   id: number;
+   title: string;
+   images: {
+      src: string;
+   }[];
+}
+
 export const MainProducts = async () => {
 
    const products = await getProducts()
    
-
    return(
       <section>
          <h3>✨ New products released!</h3>
          <div className={styles.MainProducts__grid}>
-            {products?.map((product) => {
+            {products?.map((product : Product) => {
                const imageSrc = product.images[0].src;
                return (
                   <article key={product.id}>
